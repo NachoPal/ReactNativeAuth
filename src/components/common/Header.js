@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     height: 50,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'red',
+    backgroundColor: '#fff',
     shadowColor: '#000',
     shadowOffset: {width: 0, height: 2},
     elevation: 2,
@@ -29,4 +29,4 @@ const styles = StyleSheet.create({
 
 const {headerStyle, textStyle} = styles;
 
-export default Header;
+export { Header };

@@ -20,4 +20,4 @@ const styles = {
 
 const {cardStyle} = styles;
 
-export default Card;
+export { Card };
